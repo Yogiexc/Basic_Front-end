@@ -60,7 +60,10 @@ Contoh:
 
 css
 Copy code
-![Preview Website](img/preview.png)
+![Preview Website](img/ss1.png)
+![Preview Website](img/ss2.png)
+![Preview Website](img/ss3.png)
+![Preview Website](img/ss4.png)
 👨‍💻 Pengembang
 Bryan Yogie Saputra
 🎓 D3 Teknik Informatika – Universitas Sebelas Maret

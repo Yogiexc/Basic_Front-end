@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="id" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,139 +41,184 @@
   </section>
 
   <!-- ABOUT -->
-  <section id="about" class="py-16 bg-[#fdf6f0]">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-8">Tentang Indo Gitar</h2>
-      <p class="text-center max-w-3xl mx-auto mb-8">
-        Indo Gitar adalah usaha kerajinan gitar handmade yang berlokasi di Sukoharjo.
-        Kami mengkhususkan diri dalam pembuatan gitar akustik, elektrik, dan custom dengan kualitas terbaik.
-      </p>
-      <div class="grid md:grid-cols-3 gap-8 text-center">
-        <div class="p-6 bg-white rounded-lg shadow">
-          <h3 class="font-semibold text-lg">📍 Alamat</h3>
-          <p>Jalan Langen Harjo, Dusun II, Mancasan, Baki, Sukoharjo</p>
+<!-- ABOUT -->
+<section id="about" class="py-16 bg-gradient-to-b from-[#fdf3e7] to-[#f7e0c2]">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold mb-8 text-[#5c3d2e]">Tentang Kami</h2>
+    <p class="max-w-3xl mx-auto mb-8 text-gray-700">
+      Indo Gitar berkomitmen menghadirkan instrumen berkualitas tinggi yang lahir dari perpaduan seni, teknologi, dan cinta terhadap musik.
+    </p>
+    
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+        <h3 class="text-lg font-semibold mb-2 text-[#5c3d2e]">🎯 Visi</h3>
+        <p>Menjadi produsen gitar handmade lokal terbaik di Indonesia.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+        <h3 class="text-lg font-semibold mb-2 text-[#5c3d2e]">🚀 Misi</h3>
+        <p>Meningkatkan kreativitas dan inovasi dalam setiap desain gitar.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+        <h3 class="text-lg font-semibold mb-2 text-[#5c3d2e]">💡 Nilai</h3>
+        <p>Kualitas, ketelitian, dan kepuasan pelanggan adalah prioritas kami.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROFILE -->
+<section id="profile" class="py-16 bg-gradient-to-b from-[#f7e0c2] to-[#fdf6f0]">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold mb-8 text-[#5c3d2e]">Profil Usaha</h2>
+    <p class="max-w-3xl mx-auto mb-12 text-gray-700">
+      Indo Gitar adalah UMKM yang berdiri sejak tahun 2017 di Sukoharjo. 
+      Kami berfokus pada produksi gitar handmade dengan kualitas ekspor, 
+      mengutamakan keaslian bahan, dan sentuhan tangan pengrajin lokal.
+    </p>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 p-6">
+        <img src="img/tempat.jpg" alt="Workshop Indo Gitar" class="rounded-lg mb-4 w-full h-48 object-cover">
+        <h3 class="font-semibold text-lg mb-2 text-[#5c3d2e]">Workshop</h3>
+        <p class="text-gray-600">Tempat produksi dengan alat modern dan bahan alami pilihan.</p>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 p-6">
+        <img src="img/pengrajin_gitar.jpg" alt="Tim Pengrajin" class="rounded-lg mb-4 w-full h-48 object-cover">
+        <h3 class="font-semibold text-lg mb-2 text-[#5c3d2e]">Tim Pengrajin</h3>
+        <p class="text-gray-600">Dikerjakan oleh pengrajin berpengalaman di bidang kayu dan seni ukir.</p>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 p-6">
+        <img src="img/produk_cus.jpeg" alt="Produk Custom" class="rounded-lg mb-4 w-full h-48 object-cover">
+        <h3 class="font-semibold text-lg mb-2 text-[#5c3d2e]">Produk Custom</h3>
+        <p class="text-gray-600">Kami menerima pesanan khusus sesuai desain dan kebutuhan pelanggan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products" class="py-16 bg-gradient-to-b from-[#fdf6f0] to-[#f8e7d0]">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12 text-[#5c3d2e]">Produk Kami</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
+        <img src="img/guitars.jpg" class="w-full h-52 object-cover" alt="Gitar Akustik">
+        <div class="p-4">
+          <h3 class="font-semibold text-lg text-[#5c3d2e]">Gitar Akustik</h3>
+          <p>Resonansi jernih dengan kualitas suara hangat</p>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow">
-          <h3 class="font-semibold text-lg">📞 Kontak</h3>
-          <p>0812-2589-8228</p>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
+        <img src="img/gitar-elektrik2.jpg" class="w-full h-52 object-cover" alt="Gitar Elektrik">
+        <div class="p-4">
+          <h3 class="font-semibold text-lg text-[#5c3d2e]">Gitar Elektrik</h3>
+          <p>Pickup modern dengan kualitas tinggi</p>
         </div>
-        <div class="p-6 bg-white rounded-lg shadow">
-          <h3 class="font-semibold text-lg">🎯 Target Pasar</h3>
-          <p>Musisi lokal, pelajar musik, dan pasar online</p>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 overflow-hidden">
+        <img src="img/gitarr.jpg" class="w-full h-52 object-cover" alt="Custom Handmade">
+        <div class="p-4">
+          <h3 class="font-semibold text-lg text-[#5c3d2e]">Custom Handmade</h3>
+          <p>Pesanan sesuai keinginan (warna, model, ukiran)</p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- PRODUCTS -->
-  <section id="products" class="py-16">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-12">Produk Kami</h2>
-      <div class="grid md:grid-cols-3 gap-8">
-        
-        <div class="bg-white rounded-lg shadow hover:shadow-lg overflow-hidden transition">
-          <img src="img/guitars.jpg" class="w-full h-52 object-cover" alt="Gitar Akustik">
-          <div class="p-4">
-            <h3 class="font-semibold text-lg">Gitar Akustik</h3>
-            <p>Resonansi jernih dengan kualitas suara hangat</p>
-          </div>
-        </div>
-
-        <div class="bg-white rounded-lg shadow hover:shadow-lg overflow-hidden transition">
-          <img src="img/gitar-elektrik2.jpg" class="w-full h-52 object-cover" alt="Gitar Elektrik">
-          <div class="p-4">
-            <h3 class="font-semibold text-lg">Gitar Elektrik</h3>
-            <p>Pickup modern dengan kualitas tinggi</p>
-          </div>
-        </div>
-
-        <div class="bg-white rounded-lg shadow hover:shadow-lg overflow-hidden transition">
-          <img src="img/pengrajin_gitar.jpg" class="w-full h-52 object-cover" alt="Custom Handmade">
-          <div class="p-4">
-            <h3 class="font-semibold text-lg">Custom Handmade</h3>
-            <p>Pesanan sesuai keinginan (warna, model, ukiran)</p>
-          </div>
-        </div>
-
+<!-- EXCELLENCE -->
+<section class="bg-gradient-to-b from-[#f8e7d0] to-[#f5e9dd] py-16">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12 text-[#5c3d2e]">Keunggulan Kami</h2>
+    <div class="grid md:grid-cols-3 gap-8 text-center">
+      <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+        <div class="text-4xl">🌳</div>
+        <h3 class="font-semibold text-lg text-[#5c3d2e]">Kayu Pilihan Lokal</h3>
+        <p>Menggunakan kayu berkualitas tinggi dari sumber lokal</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+        <div class="text-4xl">✋</div>
+        <h3 class="font-semibold text-lg text-[#5c3d2e]">Finishing Halus</h3>
+        <p>Diselesaikan dengan sentuhan tangan pengrajin berpengalaman</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+        <div class="text-4xl">🎨</div>
+        <h3 class="font-semibold text-lg text-[#5c3d2e]">Custom Design</h3>
+        <p>Pesanan custom sesuai keinginan Anda</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- EXCELLENCE -->
-  <section class="bg-[#f5e9dd] py-16">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-12">Keunggulan Kami</h2>
-      <div class="grid md:grid-cols-3 gap-8 text-center">
-        <div class="p-6 bg-white rounded-lg shadow">
-          <div class="text-4xl">🌳</div>
-          <h3 class="font-semibold text-lg">Kayu Pilihan Lokal</h3>
-          <p>Menggunakan kayu berkualitas tinggi dari sumber lokal</p>
-        </div>
-        <div class="p-6 bg-white rounded-lg shadow">
-          <div class="text-4xl">✋</div>
-          <h3 class="font-semibold text-lg">Finishing Halus</h3>
-          <p>Diselesaikan dengan sentuhan tangan pengrajin berpengalaman</p>
-        </div>
-        <div class="p-6 bg-white rounded-lg shadow">
-          <div class="text-4xl">🎨</div>
-          <h3 class="font-semibold text-lg">Custom Design</h3>
-          <p>Pesanan custom sesuai keinginan Anda</p>
-        </div>
-      </div>
-    </div>
-  </section>
 
 <!-- Gallery Section -->
-<section id="gallery" class="py-16 bg-gray-50">
+<section id="gallery" class="py-16 bg-gradient-to-b from-[#cbb79b] to-[#a8835e]">
   <div class="max-w-7xl mx-auto px-6">
-    <h2 class="text-3xl font-bold text-center mb-12">Galeri Produk</h2>
+    <h2 class="text-3xl font-bold text-center mb-12 text-white">Galeri Produk</h2>
+    
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
 
       <!-- Item 1 -->
-      <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-        <img src="img/gitarakustik.jpeg" alt="Gitar Akustik Classic" class="w-full h-56 object-cover">
+      <div class="group bg-[#f9f4ef] rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+        <div class="overflow-hidden">
+          <img src="img/gitarakustik.jpeg" alt="Gitar Akustik Classic" class="w-full h-56 object-cover transition duration-300 group-hover:brightness-75">
+        </div>
         <div class="p-4 text-center">
-          <p class="font-medium">Gitar Akustik Classic</p>
+          <p class="font-medium text-[#3b2f2f]">Gitar Akustik Classic</p>
         </div>
       </div>
 
       <!-- Item 2 -->
-      <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-        <img src="img/gitar-elektrik3.jpg" alt="Gitar Elektrik Modern" class="w-full h-56 object-cover">
+      <div class="group bg-[#f9f4ef] rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+        <div class="overflow-hidden">
+          <img src="img/gitar-elektrik3.jpg" alt="Gitar Elektrik Modern" class="w-full h-56 object-cover transition duration-300 group-hover:brightness-75">
+        </div>
         <div class="p-4 text-center">
-          <p class="font-medium">Gitar Elektrik Modern</p>
+          <p class="font-medium text-[#3b2f2f]">Gitar Elektrik Modern</p>
         </div>
       </div>
 
       <!-- Item 3 -->
-      <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-        <img src="img/rebab.jpg" alt="Rebab" class="w-full h-56 object-cover">
+      <div class="group bg-[#f9f4ef] rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+        <div class="overflow-hidden">
+          <img src="img/rebab.jpg" alt="Rebab" class="w-full h-56 object-cover transition duration-300 group-hover:brightness-75">
+        </div>
         <div class="p-4 text-center">
-          <p class="font-medium">Rebab</p>
+          <p class="font-medium text-[#3b2f2f]">Rebab</p>
         </div>
       </div>
 
       <!-- Item 4 -->
-      <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-        <img src="img/kentrung.jpg" alt="Gitar Kentrung/Ukulele" class="w-full h-56 object-cover">
+      <div class="group bg-[#f9f4ef] rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+        <div class="overflow-hidden">
+          <img src="img/kentrung.jpg" alt="Gitar Kentrung/Ukulele" class="w-full h-56 object-cover transition duration-300 group-hover:brightness-75">
+        </div>
         <div class="p-4 text-center">
-          <p class="font-medium">Gitar Kentrung/Ukulele</p>
+          <p class="font-medium text-[#3b2f2f]">Gitar Kentrung/Ukulele</p>
         </div>
       </div>
 
       <!-- Item 5 -->
-      <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-        <img src="img/GITAR.jpg" alt="Gitar Elektrik Bass" class="w-full h-56 object-cover">
+      <div class="group bg-[#f9f4ef] rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+        <div class="overflow-hidden">
+          <img src="img/GITAR.jpg" alt="Gitar Elektrik Bass" class="w-full h-56 object-cover transition duration-300 group-hover:brightness-75">
+        </div>
         <div class="p-4 text-center">
-          <p class="font-medium">Gitar Elektrik Bass</p>
+          <p class="font-medium text-[#3b2f2f]">Gitar Elektrik Bass</p>
         </div>
       </div>
 
       <!-- Item 6 -->
-      <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-        <img src="img/gitar_junior.jpg" alt="Gitar Junior/Ukuran 3/4" class="w-full h-56 object-cover">
+      <div class="group bg-[#f9f4ef] rounded-xl shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+        <div class="overflow-hidden">
+          <img src="img/gitar_junior.jpg" alt="Gitar Junior/Ukuran 3/4" class="w-full h-56 object-cover transition duration-300 group-hover:brightness-75">
+        </div>
         <div class="p-4 text-center">
-          <p class="font-medium">Gitar Junior/Ukuran 3/4</p>
+          <p class="font-medium text-[#3b2f2f]">Gitar Junior/Ukuran 3/4</p>
         </div>
       </div>
 
@@ -183,46 +228,52 @@
 
 
   <!-- CONTACT -->
-  <section id="contact" class="py-16 bg-[#fdf6f0]">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-12">Hubungi Kami</h2>
-      <div class="grid md:grid-cols-2 gap-12">
-        
-        <!-- Info -->
-        <div class="space-y-6">
-          <div>
-            <h3 class="font-semibold text-lg">📍 Alamat</h3>
-            <p>Jalan Langen Harjo, Dusun II<br>Mancasan, Baki, Sukoharjo</p>
-          </div>
-          <div>
-            <h3 class="font-semibold text-lg">📞 Telepon</h3>
-            <a href="tel:081225898228" class="text-[#5c3d2e] hover:underline">0812-2589-8228</a>
-          </div>
-          <div>
-            <h3 class="font-semibold text-lg">⏰ Jam Kerja</h3>
-            <p>Senin - Sabtu: 08:00 - 17:00<br>Minggu: 09:00 - 15:00</p>
-          </div>
-        </div>
+<section id="contact" class="relative py-16 text-white overflow-hidden">
+  <!-- 🔹 Video Background -->
+  <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover">
+    <source src="vid/vidiogitar2.mp4" type="video/mp4">
+    Browser kamu tidak mendukung video tag.
+  </video>
 
-        <!-- Form -->
+  <!-- 🔹 Overlay gelap agar teks tetap terbaca -->
+  <div class="absolute inset-0 bg-black/50"></div>
+
+  <!-- 🔹 Konten -->
+  <div class="relative max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">Hubungi Kami</h2>
+    <div class="grid md:grid-cols-2 gap-12">
+      
+      <!-- Info -->
+      <div class="space-y-6">
         <div>
-          <form class="space-y-4">
-            <input type="text" placeholder="Nama Lengkap" required
-              class="w-full p-3 border rounded focus:ring-2 focus:ring-[#d4a373]">
-            <input type="email" placeholder="Email" required
-              class="w-full p-3 border rounded focus:ring-2 focus:ring-[#d4a373]">
-            <input type="tel" placeholder="Nomor Telepon"
-              class="w-full p-3 border rounded focus:ring-2 focus:ring-[#d4a373]">
-            <textarea placeholder="Pesan Anda" rows="5" required
-              class="w-full p-3 border rounded focus:ring-2 focus:ring-[#d4a373]"></textarea>
-            <button type="submit"
-              class="bg-[#5c3d2e] hover:bg-[#4a2f22] text-white px-6 py-3 rounded font-semibold">Kirim Pesan</button>
-          </form>
+          <h3 class="font-semibold text-lg">📍 Alamat</h3>
+          <p>Jalan Langen Harjo, Dusun II<br>Mancasan, Baki, Sukoharjo</p>
         </div>
-
+        <div>
+          <h3 class="font-semibold text-lg">📞 Telepon</h3>
+          <a href="tel:081225898228" class="text-[#f9e4cc] hover:underline">0812-2589-8228</a>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">⏰ Jam Kerja</h3>
+          <p>Senin - Sabtu: 08:00 - 17:00<br>Minggu: 09:00 - 15:00</p>
+        </div>
       </div>
+
+      <!-- (Opsional) Tambahkan form atau gambar di sisi kanan -->
+      <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 shadow-lg">
+        <h3 class="font-semibold text-xl mb-4">Kirim Pesan</h3>
+        <form class="space-y-4">
+          <input type="text" placeholder="Nama" class="w-full p-3 rounded bg-white/20 text-white placeholder-white/70">
+          <input type="email" placeholder="Email" class="w-full p-3 rounded bg-white/20 text-white placeholder-white/70">
+          <textarea placeholder="Pesan..." class="w-full p-3 rounded bg-white/20 text-white placeholder-white/70 h-24"></textarea>
+          <button class="bg-[#f4c37d] text-black px-6 py-3 rounded-lg font-semibold hover:bg-[#ffb347] transition">Kirim</button>
+        </form>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- FOOTER -->
   <footer class="bg-[#5c3d2e] text-white py-8">

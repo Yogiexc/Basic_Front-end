@@ -37,11 +37,6 @@ Dibuat menggunakan **HTML5 dan Tailwind CSS** sebagai bagian dari tugas proyek F
 │ ├── bass-custom.jpg
 │ └── gitar_junior.jpg
 
-yaml
-Copy code
-
----
-
 ## 🚀 Cara Menjalankan Website
 1. Clone repository ini:
    ```bash
@@ -54,12 +49,6 @@ cd Basic_Front-end
 Jalankan file index.html di browser favoritmu (Chrome, Edge, Firefox, dll).
 
 🖼️ Preview Website
-Tambahkan screenshot di sini nanti (misalnya preview.png atau screenshot-homepage.jpg)
-
-Contoh:
-
-css
-Copy code
 ![Preview Website](img/ss1.png)
 ![Preview Website](img/ss2.png)
 ![Preview Website](img/ss3.png)
